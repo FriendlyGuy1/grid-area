@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#grid {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 1%;
+}
+
+.item1 {
+    grid-area: 1 / 1 / 5 / 5;
+    background-color: red;
+    border-radius: 5%;
+}
+
+.item2 {
+    grid-area: 5 / 1 / 9 / 3;
+    background-color: violet;
+    border-radius: 5%;
+}
+
+.item3 {
+    grid-area: 5 / 3 / 6 / 5;
+    background-color: aquamarine;
+    border-radius: 5%;
+}
+
+.item4 {
+    grid-area: 6 / 3 / 9 / 5;
+    background-color: black;
+    border-radius: 5%;
+}
+
+.item5 {
+    grid-area: 9 / 1 / 13 / 5;
+    background-color: blue;
+    border-radius: 5%;
+}
+
+.item6 {
+    grid-area: 1 / 5 / 8 / 7;
+    background-color: rgb(243, 243, 19);
+    border-radius: 5%;
+}
+
+.item7 {
+    grid-area: 1 / 7 / 3 / 9;
+    background-color: rgb(233, 198, 1);
+    border-radius: 5%;
+}
+
+.item8 {
+    grid-area: 3 / 7 / 8 / 9;
+    background-color: brown;
+    border-radius: 5%;
+}
+
+.item9 {
+    grid-area: 8 / 5 / 13 / 9;
+    background-color: rgb(7, 224, 72);
+    border-radius: 5%;
+}
+
+.item10 {
+    grid-area: 1 / 9 / 3 / 13;
+    background-color: rgb(243, 16, 16);
+    border-radius: 5%;
+}
+
+.item11 {
+    grid-area: 3 / 9 / 4 / 10;
+    background-color: rgb(8, 238, 180);
+    border-radius: 5%;
+}
+
+.item12 {
+    grid-area: 3 / 10 / 4 / 13;
+    background-color: rgb(20, 6, 221);
+    border-radius: 5%;
+}
+
+.item13 {
+    grid-area: 4 / 9 / 12 / 13;
+    background-color: bisque;
+    border-radius: 5%;
+}
+
+.item14 {
+    grid-area: 12 / 9 / 13 / 13;
+    background-color: rgb(168, 97, 97);
+    border-radius: 5%;
+}
